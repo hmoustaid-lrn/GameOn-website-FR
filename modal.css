@@ -99,14 +99,7 @@ img {
 
 
 
- @media screen and (max-width: 540px) {
-  .topnav a {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-    margin-top: -15px;
-  }
-} 
+
 
 main {
   font-size: 130%;
