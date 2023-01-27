@@ -67,6 +67,7 @@ img {
 
 .topnav .icon {
   display: none;
+  color:#ff0000;
 }
 
 @media screen and (max-width: 768px) {
