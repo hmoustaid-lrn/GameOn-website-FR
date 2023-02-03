@@ -22,6 +22,13 @@ function launchModal() {
   modalbg.style.display = "block";
 }
 
+// Fermer la modale
+const closeModalBtn = document.querySelector(".close");
+
+closeModalBtn.addEventListener("click", function(){
+  modalbg.style.display = "none";
+});
+
 //Confirmation après envoi réussi   
 function displayThanks(){
 
