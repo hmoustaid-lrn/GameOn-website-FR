@@ -25,9 +25,9 @@ const form = {
 };
 // Objet Regex pour valider l'email, le nom et la quantité
 const regex = {
-  mail: /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/,
+  mail: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
   name: /^[a-zA-Z-]{1,}[^\d.+*/$%µ!§:;,?={}²&~"#()`@]$/,
-  quantity: /^\d{1,}$/
+  quantity: /^\d{1,2}$/
 };
 
 // launch modal event
