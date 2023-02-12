@@ -25,7 +25,7 @@ const form = {
 };
 // Objet Regex pour valider l'email, le nom et la quantité
 const regex = {
-  mail: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+  mail: /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@\d*[a-zA-Z]+\d*[a-zA-Z]*(?:\.[a-zA-Z]+)*$/,
   name: /^[a-zA-Z-]{1,}[^\d.+*/$%µ!§:;,?={}²&~"#()`@]$/,
   quantity: /^\d{1,2}$/
 };
